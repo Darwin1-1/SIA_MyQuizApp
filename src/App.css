@@ -1,0 +1,77 @@
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f4f6ff 0%, #e9edff 100%);
+  padding: 24px;
+  color: #000;
+}
+
+.start-screen {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: min(100%, 540px);
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 20px 50px rgba(59, 75, 146, 0.15);
+  padding: 48px 32px;
+  text-align: center;
+  color: #000;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #1a1a1a;
+}
+
+.card h1 {
+  margin: 0 0 12px;
+  font-size: clamp(2.2rem, 4vw, 3.3rem);
+  color: #000;
+}
+
+.description {
+  margin: 0 0 24px;
+  font-size: 1.06rem;
+  color: #111827;
+}
+
+.start-button,
+.next-button,
+.option-button {
+  border: none;
+  border-radius: 12px;
+  font: inherit;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.start-button,
+.next-button {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  color: #fff;
+  padding: 14px 24px;
+  font-weight: 600;
+  box-shadow: 0 10px 20px rgba(79, 70, 229, 0.25);
+}
+
+.start-button:hover,
+.next-button:hover,
+.option-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.option-button:disabled {
+  cursor: default;
+}

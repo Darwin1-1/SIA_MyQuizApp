@@ -6,7 +6,7 @@ function App() {
   const [startQuiz, setStartQuiz] = useState(false);
 
   return (
-    <main className="app-shell">
+    <main className="app-shell bg-[#722f37]">
       {startQuiz ? (
         <QuizComponent />
       ) : (

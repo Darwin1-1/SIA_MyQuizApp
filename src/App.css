@@ -3,7 +3,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #f4f6ff 0%, #e9edff 100%);
   padding: 24px;
   color: #000;
 }
@@ -16,7 +15,7 @@
 
 .card {
   width: min(100%, 540px);
-  background: #ffffff;
+  background: #17cdff;
   border-radius: 20px;
   box-shadow: 0 20px 50px rgba(59, 75, 146, 0.15);
   padding: 48px 32px;
@@ -60,7 +59,7 @@
 .start-button,
 .next-button {
   background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
-  color: #fff;
+  color: #ffffff;
   padding: 14px 24px;
   font-weight: 600;
   box-shadow: 0 10px 20px rgba(79, 70, 229, 0.25);

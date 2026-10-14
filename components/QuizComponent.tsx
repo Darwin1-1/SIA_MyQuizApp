@@ -163,7 +163,7 @@ function QuizComponent() {
             <button
               key={option}
               type="button"
-              className="option-button"
+              className={`option-button bg-indigo-50 ${selectedAnswer === option ? "bg-sky-200" : ""}`}
               onClick={() => handleAnswer(option)}
               disabled={selectedAnswer !== null}
             >
